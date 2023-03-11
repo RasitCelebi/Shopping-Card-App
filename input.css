@@ -35,4 +35,43 @@
         @apply flex-grow flex justify-center items-center bg-gray-300 hover:bg-gray-300/80 rounded-md transition
     };
 
+    .sidebar {
+        @apply flex-grow flex justify-center items-center bg-gray-300 hover:bg-gray-300/80 rounded-md transition
+    };
+
+    /* card */
+
+    .cart-item{
+        @apply
+        flex
+        items-center
+        justify-between
+        p-[10px]
+        bg-white border-solid border-[#333]
+        border-b-2
+        border
+        rounded
+        m-[10px]
+    }
+    .row-img{
+        @apply
+        w-14
+        h-14
+        rounded-[56px]
+        border-solid border-yellow-500
+        flex
+        items-center
+        justify-center
+    }
+    .rowimg{
+        @apply
+        max-w-[43px]
+        max-h-[43px]
+        rounded-[50%]
+    }
+    .fa-trash:hover{
+        cursor: pointer;
+        color: #333;
+    }
+
 };
